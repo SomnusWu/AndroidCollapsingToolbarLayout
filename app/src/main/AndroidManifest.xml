@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.somnus.toolbar.androidcollapsingtoolbarlayout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CollapsingToolbarLayoutActivity"
+            android:label="@string/title_activity_collapsing_toolbar_layout" />
+        <activity
+            android:name=".TabLayoutDemo"
+            android:label="@string/title_activity_tab_layout_demo" />
+        <activity android:name=".RecyclerViewActivity" />
+        <activity
+            android:name=".MaterialDesignActivity"
+            android:label="@string/title_activity_material_design" />
+        <activity
+            android:name=".OptionsCompatActivity"
+            android:label="@string/title_activity_options_compat" />
+        <activity
+            android:name=".ParcelableActivity"
+            android:label="@string/title_activity_parcelable"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigationViewAcitivty"
+            android:label="@string/title_activity_navigation_view_acitivty"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".RecyclerAnimViewActivity"
+            android:label="@string/title_activity_navigation_view_acitivty"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".RecyclerViewGridActivity"
+            android:label="@string/title_activity_material_design" />
+
+
+    </application>
+
+</manifest>

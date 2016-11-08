@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidCollapsingToolbarLayout</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_collapsing_toolbar_layout">CollapsingToolbarLayoutActivity</string>
+    <string name="title_activity_tab_layout_demo">TabLayoutDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_material_design">MaterialDesignActivity</string>
+    <string name="title_activity_options_compat">OptionsCompatActivity</string>
+    <string name="title_activity_parcelable">ParcelableActivity</string>
+    <string name="title_activity_navigation_view_acitivty">NavigationViewAcitivty</string>
+
+    <string name="msg_error_phone">请输入正确的手机号码</string>
+    <string name="msg_error_password">请输入6到16位数字或字母密码</string>
+
+
+
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+
+</resources>
